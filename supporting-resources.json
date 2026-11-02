@@ -1,0 +1,52 @@
+{
+  "large_published_results": {
+    "repository": "https://github.com/OldJake667/training_models_12-16.10.26_from_scratch",
+    "commit": "8a1fa96e014aa39c19ee394f6f48847ba4339daf",
+    "path": "bandwidth_explainability/outputs",
+    "url": "https://github.com/OldJake667/training_models_12-16.10.26_from_scratch/tree/8a1fa96e014aa39c19ee394f6f48847ba4339daf/bandwidth_explainability/outputs",
+    "approximate_bytes": 1080000000,
+    "included": true,
+    "local_path": "model-training/rdn-from-scratch/2026-10-12_to_2026-10-16/github-main/bandwidth_explainability/outputs"
+  },
+  "original_221_image_dataset": {
+    "repository": "https://github.com/OldJake667/code",
+    "commit": "a31db1c94389ea461e0fa2e3f3e5b1001256c295",
+    "source_path": "data",
+    "destination": "model-training/original-bandwidth-replication/undated/local-work/data",
+    "note": "The original full dataset is included at the destination path; lab and results packages also include their 45 validation BMPs.",
+    "included": true
+  },
+  "required_model_checkpoints": {
+    "destination": "model-training/original-bandwidth-replication/undated/local-work/original_bandwidth_explainability_lab/checkpoints",
+    "files": [
+      {
+        "file": "vmamba_best_accuracy.pth",
+        "bytes": 8237,
+        "sha256": "c28efa419a47d3c5c914789b2cd8e28a8a16c8e9fc6874acc211f8573ab65cb7"
+      },
+      {
+        "file": "dinov2_best_accuracy.pth",
+        "bytes": 86585333,
+        "sha256": "ae4bfb5d3a6f583254059ab62b0d07baea78d069ec079e76e69dd2435ec9b153"
+      },
+      {
+        "file": "vmamba_imagenet.pth",
+        "bytes": 121094026,
+        "sha256": "d855b57224a652bc692804932f88dc3a39b9028e64be99f745a7fd6792ca672a"
+      },
+      {
+        "file": "vit_tiny_best_accuracy.pth",
+        "bytes": 21761229,
+        "sha256": "f91fb2d6a74df3b69c907492a43637869fff411cdb1e77375ecd6e879892a93e"
+      },
+      {
+        "file": "cnn_best_accuracy.pth",
+        "bytes": 59359445,
+        "sha256": "c74ef2850e1283eb05ff540d3c2eb96e1fccf1eac4ec3095075c56333224ddde"
+      }
+    ],
+    "included": false,
+    "additional_destination": "model-training/rdn-from-scratch/2026-10-12_to_2026-10-16/github-main/bandwidth_explainability/checkpoints"
+  },
+  "scope": "Original Low/High bandwidth classification. This is distinct from SUTD/RDN compact-response classification."
+}
